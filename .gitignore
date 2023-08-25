@@ -1,0 +1,25 @@
+# Virtual Environment
+venv/
+ENV/
+.Python
+python_env/
+__pycache__/
+
+# IDE (e.g. PyCharm)
+.idea/
+
+# VSCode settings
+.vscode/
+
+# Other editors/IDEs
+*.swp
+*.swo
+*~
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# macOS-specific files
+.DS_Store
+.AppleDouble
