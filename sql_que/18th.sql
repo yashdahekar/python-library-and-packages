@@ -17,6 +17,7 @@ insert into Views values
 
 select * from views;
 
+--18
 select distinct author_id from views
 where author_id in (
 select distinct author_id from views
