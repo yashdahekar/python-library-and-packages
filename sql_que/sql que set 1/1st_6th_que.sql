@@ -10,8 +10,8 @@ district varchar(20),
 population int
 );
 
-INSERT INTO city VALUES 
-(6, 'Rotterdam', 'NLD', 'Zuid-Holland', NULL),
+insert into  city values 
+(6, 'Rotterdam', 'NLD', 'Zuid-Holland', null),
 (19, 'Zaanstad', 'NLD', 'Noord-Holland', 135621),
 (214, 'Porto Alegre', 'BRA', 'Rio Grande do Sul', 1314032),
 (397, 'Lauro de Freitas', 'BRA', 'Bahia', 109236),

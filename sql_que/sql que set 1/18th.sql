@@ -21,5 +21,5 @@ select * from views;
 select distinct author_id from views
 where author_id in (
 select distinct author_id from views
-where viewer_id = author_id and views.article_id = article_id)
+where author_id = viewer_id)
 order by author_id asc;

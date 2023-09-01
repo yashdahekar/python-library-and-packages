@@ -22,7 +22,7 @@ CREATE TABLE station (
 
 select * from station;
 
-INSERT INTO station (id, city, state, lat_n, long_w) VALUES
+insert into station (id, city, state, lat_n, long_w) values
 (794, 'Kissee Mills', 'MO', 139, 73),
 (824, 'Loma Mar', 'CA', 48, 130),
 (603, 'Sandy Hook', 'CT', 72, 148),

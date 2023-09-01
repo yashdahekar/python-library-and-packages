@@ -1,3 +1,6 @@
 Numpy
 Pandas
 openpyxl
+matplotlib
+pymongo
+pymongo[srv]

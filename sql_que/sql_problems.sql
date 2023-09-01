@@ -30,9 +30,9 @@ insert into aitools values
 select * from aitools;
 
 select id from aitools
-where technology in ('ds', 'python', 'sql')
+where technology in ('ds', 'python', 'sql' , 'tablean')
 group by id
-having count(distinct technology) = 3;
+having count(distinct technology) = 4;
 
 --or
 
